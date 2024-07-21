@@ -5,29 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A Imobiliária que te ajuda a conquistar seu sonho da casa nova">
+    <link rel="stylesheet" href="css/style.css">
     <title>Imobiliária Santos</title>
 </head>
 
 <body>
     <header>
-        <img src="img/logo.png" alt="Imobiliária Santos" width="128" title="Imobiliária Santos">
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#corretores">Corretores</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
+        <nav>
+            <a href="">
+                <img src="img/logo.png" alt="Imobiliária Santos" width="128" title="Imobiliária Santos">
+            </a>
+            <ul>
+                <li><a href="#sobre" class="header-link">Sobre</a></li>
+                <li><a href="#servicos" class="header-link">Serviços</a></li>
+                <li><a href="#corretores" class="header-link">Corretores</a></li>
+                <li><a href="#contato" class="header-link">Contato</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
             <figure>
-                <img src="img/banner.jpg" alt="anúncio de casa" width="100%">
+                <img src="img/banner.jpg" alt="anúncio de casa" style="width: 100%; max-width: 1024px;">
             </figure>
         </section>
         <section id="sobre">
             <h1>Encontre o imóvel dos seus sonhos</h1>
             <h2>A imobiliária que te ajuda no sonho do seu imóvel</h2>
-            <figure>
+            <figure class="container-img">
                 <img src="img/imovel-assinatura.jpg" alt="Assinatura de imóvel" loading="lazy">
             </figure>
             <p>
@@ -58,7 +63,7 @@
         </section>
         <section id="corretores">
             <h2>Corretores</h2>
-            <figure>
+            <figure class="container-img">
                 <img src="img/corretores.jpg" alt="corretores" loading="lazy">
             </figure>
             <p>
@@ -68,11 +73,12 @@
                 seguir: <a href="mailto:corretores@email.com">Corretores</a>
             </p>
         </section>
-        <section id="contato">
+        <section id="contatos">
             <h2>Contato</h2>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7346.254844548052!2d-43.364712467659004!3d-22.98234139602229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-904!5e0!3m2!1spt-BR!2sbr!4v1642532754862!5m2!1spt-BR!2sbr"
-                width="800" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                height="350" style="border:0;width: 100%; max-width: 1024px;" allowfullscreen=""
+                loading="lazy"></iframe>
             <p>
                 Se ficou interessado em nos conhecer ou se tiver dúvidas entre em <strong>contato</strong> conosco
                 atráves
@@ -81,13 +87,13 @@
             </p>
             <ul>
                 <li>
-                    <a href="mailto:officebarra@email.com">Escritório Barra da Tijuca</a>
+                    <a href="mailto:officebarra@email.com" class="link-contato">Escritório Barra da Tijuca</a>
                 </li>
                 <li>
-                    <a href="mailto:officecentro@email.com">Escritório Centro/RJ</a>
+                    <a href="mailto:officecentro@email.com" class="link-contato">Escritório Centro/RJ</a>
                 </li>
                 <li>
-                    <a href="mailto:officemeier@email.com">Escritório Méier</a>
+                    <a href="mailto:officemeier@email.com" class="link-contato">Escritório Méier</a>
                 </li>
             </ul>
         </section>
